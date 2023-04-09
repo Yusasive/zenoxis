@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Features-nfts h1 {
+    color: whitesmoke;
+    margin: 1rem 0rem 0.5rem 3rem;
+}
+
+.Features {
+    min-height: 70vh;
+    color: whitesmoke;
+    font-weight: 300;
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: 300px;
+    background-image: linear-gradient(#6CC1D3, #1C1E52);
+    padding: 1.5rem;
+    padding-bottom: 0.5rem;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 1.5rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.card__images {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(#6CC1D3, #1C1E52);
+}
+
+.card__images #equilibrium {
+    width: 100%;
+    height: 80%;
+    border-radius: 0.5rem;
+    vertical-align: top;
+    align-items: center;
+    cursor: pointer;
+    background-image: none;
+}
+
+.card__images-layer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.card__images-layer #view {
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.card__images:hover .card__images-layer {
+    background: hsla(178, 100%, 50%, 0.4);
+}
+
+.card__images:hover #view {
+    opacity: 1;
+}
+
+.card-title {
+    width: auto;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    margin: 0.8rem 0;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    background: none;
+}
+
+.card h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.card-id {
+    width: auto;
+    color: whitesmoke;
+    background: none;
+    background-image: none;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card__time {
+    display: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.card__time-left,
+.card__time-right {
+    display: column;
+    align-items: center;
+}
+
+.card .card__time-left,
+.card__time-right p {
+    color: whitesmoke;
+    background: none;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card__time-left span {
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card__time-right span {
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 490px) {
+    .Features {
+        min-height: 50vh;
+        color: whitesmoke;
+        font-weight: 300;
+        display: column;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

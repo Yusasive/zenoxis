@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Raleway&display=swap');
+.sub {
+    background: #000F19;
+}
+
+.sub h1 {
+    font-size: 40px;
+    font-weight: 550;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    margin: 2rem 4rem 2rem 4rem;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: row;
+}
+
+.subheader-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 1.0rem;
+    margin-left: 2.5rem;
+}
+
+.subheader-content h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    ;
+}
+
+.subheader-content p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+    ;
+    margin-top: 1.5rem;
+}
+
+.subheader-content link {
+    color: #89BFE5;
+}
+
+.subheader-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subheader-image img {
+    width: 80%;
+    height: 90%;
+}
+
+@media screen and (max-width: 1050px) {
+    .subheader {
+        flex-direction: column;
+        margin: 2px;
+    }
+    .subheader-content {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .sub h1 {
+        font-size: 22px;
+        line-height: 33px;
+        margin: 0.8rem 1rem;
+    }
+    .subheader-content h2 {
+        font-size: 25px;
+        line-height: 60px;
+    }
+    .subheader-content p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .sub h1 {
+        font-size: 18px;
+        line-height: 38px;
+        margin: 1.2rem 1rem;
+    }
+    .subheader-content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .subheader-content p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
