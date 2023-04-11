@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Raleway&display=swap');
+.who {
+    margin: auto;
+}
+
+.who-image-icon {
+    align-items: center;
+    margin-left: 47%;
+    margin-right: 50%;
+    margin-top: 5rem;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px;
+    border-radius: 7px;
+    border-style: ridge;
+    border-color: #1B84B8;
+    padding: 0.3rem;
+}
+
+.who-content {
+    justify-content: center;
+    margin: 2rem 5rem 2rem 5rem;
+}
+
+.who-header {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+    margin: 2rem;
+}
+
+.who-description {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 350;
+    font-size: 26px;
+    line-height: 28px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.Learn {
+    color: #89BFE5;
+    font-size: large;
+    font-family: 'Outfit', sans-serif;
+}

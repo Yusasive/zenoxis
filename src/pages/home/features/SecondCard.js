@@ -1,32 +1,36 @@
-import React from 'react'
-import Picture from "../../../assets/ai.png"
-import Icon from "../../../assets/icon-view.svg"
-import './Features.css'
-const SecondCard = () => {
-  return (
-    <div className="card">
-    <p  className="card__images">
-        <img src={Picture} alt="equilibrium" id="equilibrium" />
-        <div className="card__images-layer">
-          <img src={Icon} alt="an icon of eye/view" id="view" />
-        </div>
-    </p>
-      <h1 className="card-title">ZENOXIS MEGA NFT</h1>
-    <p className='card-id'>Otebalancecalmwfsjdmdjkfkndk esdjbesnbfdxkjmsfdfxsdfnmnjdy esdbnkjrndfiouemdfslkes</p>
-    <div class="card__time">
-        <div class="card__time-left">
-         
-          <p>Floor: <span>0.5ETH</span></p>
+import React from 'react';
+import "./Features.css";
+import ai from '../../../assets/ai.png'
 
+export default function SecondCard() {
+    function renderCards() {
+        return (
+            <div className="card-container box-contents">
+                <div className="card-image-container">
+                    <img src={ai} alt="card" className="card-image" />
+                </div>
+                <div className="card-content">
+                    <h1 className="card-title">Zenoxis NFT</h1>
+                    <p className="card-description">ghdsjhsnknmsjjjjjjdrfbjngdfghjnbm
+                    dkjdfghggfvbbnghffcvggfedfhhhhh
+                    gfmd</p>
+                    <div className="card-details-container">
+                        <div className="details-container">
+                            
+                            <p className="price-text">Floor: <strong>0.5ETH</strong></p>
+                            <p className="price-text">Bid Time: <strong>2h 30m 30s</strong></p>
+                        </div>
+                  
+                    </div>
+                   
+                </div>
+            </div>
+        )
+    }
+    return (
+        <div className="card">
+          
+            {renderCards()}
         </div>
-        <div class="card__time-right">
-         
-          <p>Bid Time: <span>2h 30m 43s</span></p>
-        </div>
-    </div>
-   
-    </div>
-  )
+    )
 }
-
-export default SecondCard;

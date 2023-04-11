@@ -7,7 +7,7 @@ import Items from "./pages/Items.js";
 import Mint from "./pages/Mint";
 import AboutUs from "./pages/About";
 import Connect from "./pages/ConnectWallet";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
 
 function App() {
   return (

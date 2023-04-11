@@ -1,8 +1,9 @@
-import React from 'react'
-import FirstCard from './FirstCard'
-import SecondCard from './SecondCard'
-import ThirdCard from './ThirdCard'
-import './Features.css'
+import React from 'react';
+import FirstCard from './FirstCard';
+import SecondCard from './SecondCard';
+import ThirdCard from './ThirdCard';
+import './Features.css';
+
 const Features = () => {
   return (
     <div className='Features-nfts'>
@@ -11,6 +12,7 @@ const Features = () => {
       <FirstCard />
       <SecondCard />
       <ThirdCard />
+      
     </div>
     </div>
   )

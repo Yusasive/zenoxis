@@ -1,0 +1,76 @@
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Raleway&display=swap');
+    .footer {
+        display: flex;
+        flex-direction: row;
+        background: #06151F;
+        border-radius: 1px;
+        height: 30vh;
+        margin: 8rem 0 0 0;
+        border-style: ridge;
+        border-color: #183142;
+    }
+    
+    .footer__head {
+        margin: 1rem 5rem 1rem 5rem;
+        background-color: transparent;
+    }
+    
+    .footer__head h2 {
+        color: whitesmoke;
+        background-color: transparent;
+        font-size: larger;
+        font-weight: 400;
+        font-family: 'Outfit' sans-serif;
+    }
+    
+    .footer__head input {
+        height: 27px;
+        width: 150px;
+        border-radius: 3px;
+        background-color: transparent;
+    }
+    
+    .footer__sub {
+        margin: 1rem 0 0 3rem;
+        background-color: transparent;
+    }
+    
+    input::placeholder {
+        color: #fff;
+    }
+    
+    input,
+    select,
+    textarea {
+        color: #fff;
+    }
+    
+    .footer__text {
+        color: whitesmoke;
+        background-color: transparent;
+        margin: 0 5rem 0 0;
+        font-family: 'Outfit' sans-serif;
+        font-size: larger;
+    }
+    
+    .footer__text:hover {
+        color: blueviolet;
+        font-size: x-large;
+    }
+    
+    .footer__icons {
+        margin: 2rem 2rem 0 0;
+        background-color: transparent;
+    }
+    
+    .icons {
+        margin: 0 2rem 0 0;
+        background-color: transparent;
+        border: none;
+        height: 500px;
+        width: 450px;
+    }
+    
+    .footer__para {
+        display: grid;
+    }

@@ -6,6 +6,7 @@ const slideStyles = {
   borderRadius: "10px",
   backgroundSize: "cover",
   backgroundPosition: "center",
+  backgroundColor: "transparent",
 };
 
 const rightArrowStyles = {
@@ -14,9 +15,12 @@ const rightArrowStyles = {
   transform: "translate(0, -50%)",
   right: "15px",
   fontSize: "45px",
-  color: "#fff",
+  color: "#333",
   zIndex: 1,
+  transition: "background-color 0.5s ease-in-out, color 0.5s ease-in-out",
   cursor: "pointer",
+  borderRadius: "5px",
+  background: "rgba(255, 255, 255, 0.5)",
   
 };
 
@@ -24,12 +28,14 @@ const leftArrowStyles = {
   position: "absolute",
   top: "50%",
   transform: "translate(0, -50%)",
-  left: "-3px",
+  left: "-1px",
   fontSize: "45px",
-  color: "#fff",
+  color: "#1E1E1E",
+  transition: "background-color 0.5s ease-in-out, color 0.5s ease-in-out",
   zIndex: 1,
   cursor: "pointer",
-  background: "black,"
+  background: "rgba(255, 255, 255, 0.5)",
+  borderRadius: "5px",
   
 };
 
@@ -74,10 +80,10 @@ const ImageSlider = ({ slides }) => {
     <div style={sliderStyles}>
       <div>
         <div onClick={goToPrevious} style={leftArrowStyles}>
-          ❰
+        &lt;
         </div>
         <div onClick={goToNext} style={rightArrowStyles}>
-          ❱
+        &gt;
         </div>
       </div>
       <div style={slideStylesWidthBackground}></div>

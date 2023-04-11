@@ -12,128 +12,88 @@
 
 .Features {
     min-height: 70vh;
-    color: whitesmoke;
     font-weight: 300;
     display: flex;
     flex-direction: flex;
     justify-content: center;
+    margin-left: 2rem;
 }
 
 .card {
-    max-width: 300px;
-    background-image: linear-gradient(#6CC1D3, #1C1E52);
-    padding: 1.5rem;
-    padding-bottom: 0.5rem;
-    margin: 1.5rem;
-    border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: 0 1.5rem 1.5rem 0 rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 
-.card__images {
-    display: block;
+.card-container {
+    width: 275px;
+    min-height: 400px;
     position: relative;
     background-image: linear-gradient(#6CC1D3, #1C1E52);
-}
-
-.card__images #equilibrium {
-    width: 100%;
-    height: 80%;
-    border-radius: 0.5rem;
-    vertical-align: top;
-    align-items: center;
-    cursor: pointer;
-    background-image: none;
-}
-
-.card__images-layer {
-    position: absolute;
+    border-radius: 15px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    flex-direction: column;
+    padding: 15px 10px;
+    box-shadow: -2px 2px 46px 22px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: -2px 2px 46px 22px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: -2px 2px 46px 22px rgba(0, 0, 0, 0.6);
+    transition: 0.5s ease;
+}
+
+.card-image-container {
     background-color: transparent;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
 }
 
-.card__images-layer #view {
-    opacity: 0;
-    transition: all 0.3s linear;
+.card-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    background-image: transparent;
 }
 
-.card__images:hover .card__images-layer {
-    background: hsla(178, 100%, 50%, 0.4);
-}
-
-.card__images:hover #view {
-    opacity: 1;
+.card-content {
+    width: 270px;
+    text-align: left;
+    background-color: transparent;
 }
 
 .card-title {
-    width: auto;
-    color: whitesmoke;
-    font-size: 1.1rem;
-    margin: 0.8rem 0;
-    cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-    background: none;
-}
-
-.card h1:hover {
-    color: hsl(178, 100%, 50%);
-}
-
-.card-id {
-    width: auto;
-    color: whitesmoke;
-    background: none;
-    background-image: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    background-color: transparent;
     font-family: 'Outfit', sans-serif;
 }
 
-.card__time {
-    display: column;
-    align-items: center;
-    margin: 1rem 0;
+.card-title:hover {
+    color: aqua;
 }
 
-.card__time-left,
-.card__time-right {
-    display: column;
-    align-items: center;
-}
-
-.card .card__time-left,
-.card__time-right p {
+.card-description {
     color: whitesmoke;
-    background: none;
+    background-color: transparent;
+    margin: 0.2rem;
     font-family: 'Outfit', sans-serif;
 }
 
-.card__time-left span {
-    font-weight: 700;
-    font-size: larger;
-    font-family: 'Raleway', sans-serif;
+.price-text {
+    color: whitesmoke;
+    margin-left: 6px;
+    font-weight: lighter;
+    background-color: transparent;
+    font-family: 'Outfit', sans-serif;
 }
 
-.card__time-right span {
-    font-weight: 700;
-    font-size: larger;
-    font-family: 'Raleway', sans-serif;
+.card-details-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
 }
 
-@media screen and (max-width: 490px) {
-    .Features {
-        min-height: 50vh;
-        color: whitesmoke;
-        font-weight: 300;
-        display: column;
-        flex-direction: column;
-        justify-content: center;
-    }
+.details-container {
+    background-color: transparent;
+}
+
+.price-text strong {
+    background-color: transparent;
 }
