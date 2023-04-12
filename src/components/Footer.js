@@ -17,12 +17,12 @@ const Footer = () => {
         Become a Partner
       </Link> <br />
       <div className='footer__icons'>
-      <Link className='icons' to="#"> <FaDiscord /> </Link>
-      <Link className='icons' to="#"> <FaTwitter /> </Link>
-      <Link className='icons' to="#"> <FaTelegram /> </Link>
+      <Link className='social__icons' to="#"> <FaDiscord className='social' /> </Link>
+      <Link className='social__icons' to="#"> <FaTwitter className='social' /> </Link>
+      <Link className='social__icons' to="#"> <FaTelegram className='social' /> </Link>
       </div>
       </div> 
-      <div className='footer__para'><p>my nnameghedfb</p></div>
+
     </div>
   )
 }

@@ -6,7 +6,6 @@
         border-radius: 1px;
         height: 30vh;
         margin: 8rem 0 0 0;
-        border-style: ridge;
         border-color: #183142;
     }
     
@@ -18,14 +17,14 @@
     .footer__head h2 {
         color: whitesmoke;
         background-color: transparent;
-        font-size: larger;
+        font-size: x-large;
         font-weight: 400;
         font-family: 'Outfit' sans-serif;
     }
     
     .footer__head input {
         height: 27px;
-        width: 150px;
+        width: 180px;
         border-radius: 3px;
         background-color: transparent;
     }
@@ -63,14 +62,35 @@
         background-color: transparent;
     }
     
-    .icons {
+    .social__icons {
         margin: 0 2rem 0 0;
         background-color: transparent;
         border: none;
-        height: 500px;
-        width: 450px;
+        color: whitesmoke;
     }
     
-    .footer__para {
-        display: grid;
+    .social {
+        height: 25px;
+        width: 25px;
+        margin-right: 1rem;
+    }
+    
+    .social:hover {
+        color: blueviolet;
+    }
+    
+    .copyright {
+        background: #06151F;
+        justify-content: center;
+    }
+    
+    .copyright p {
+        color: whitesmoke;
+        text-align: center;
+        font-family: 'Outfit' sans-serif;
+        background-color: transparent;
+    }
+    
+    .copyright p:nth-child(2) {
+        padding-bottom: 3rem;
     }

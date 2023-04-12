@@ -23,7 +23,7 @@ events or communities</p>
       <p className='paragraph'>IP rights</p>
     </div>
     <div className="box d">
-      <img className='icons'v src={airdrop} alt="airdrop" />
+      <img className='icons' src={airdrop} alt="airdrop" />
       <p className='paragraph'>Airdrops</p>
     </div>
 

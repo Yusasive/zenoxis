@@ -8,6 +8,7 @@ import Mint from "./pages/Mint";
 import AboutUs from "./pages/About";
 import Connect from "./pages/ConnectWallet";
 import Footer from "./components/Footer";
+import Copyright from "./components/Copyright";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/Connect-Wallet" component={Connect}></Route>
         </Switch>
         <Footer />
+        <Copyright />
       </BrowserRouter>
     </>
   );
