@@ -92,9 +92,32 @@
 }
 
 @media screen and (max-width: 480px) {
+    .wrapper {
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 80px 80px;
+    }
     .grid-container {
         grid-template-columns: 1fr repeat(2, minmax(50px, 1fr)) repeat(2, minmax(50px, 1fr));
         grid-gap: 3px;
+    }
+    .paragraph {
+        font-size: 0.6rem;
+        font-weight: 700;
+        margin: 1% 1% 0 1%;
+    }
+    .paragraph:nth-child(5) {
+        text-align: left;
+        justify-content: left;
+    }
+    .icon-1 {
+        width: 20px;
+        height: 20px;
+    }
+    .icons {
+        width: 18px;
+        height: 18px;
+        padding: 0.1rem;
+        margin: 1% 55% 0 40%;
     }
     .grid-item-1,
     .grid-item-2 {

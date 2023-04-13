@@ -107,10 +107,24 @@
 }
 
 @media screen and (max-width: 490px) {
+    .head {
+        background: #06151F;
+        border-radius: 30px;
+        margin: 50px;
+        height: 20vh;
+    }
+    .head img {
+        margin: 7% 50% 2% 40%;
+    }
     .head h1 {
         font-size: 25px;
         line-height: 38px;
         font-weight: 800;
+        margin: 1rem 0 0.5rem 1rem;
+    }
+    .first-about-content {
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
     .first-about-content p {
         font-size: 18px;
