@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/home/Home";
 import Items from "./pages/Items.js";
 import Mint from "./pages/Mint";
-import AboutUs from "./pages/About";
+import AboutUs from "./pages/about/About";
 import Connect from "./pages/ConnectWallet";
 import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Raleway&display=swap');
+.head {
+    background: #06151F;
+    border-radius: 30px;
+    margin: 50px;
+    height: 35vh;
+}
+
+.head h1 {
+    font-size: 40px;
+    font-weight: 70 0;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    margin: 1rem 4rem 2rem 4rem;
+    background-color: transparent;
+    padding-bottom: 2rem;
+}
+
+.head img {
+    color: whitesmoke;
+    background-color: transparent;
+    margin: 4% 50% 0 47%;
+    width: 60px;
+    height: 60px;
+    border: 2px;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: #1B84B8;
+    padding: 0.3rem;
+}
+
+.first-about {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-about-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 3rem;
+    margin-left: 2.5rem;
+}
+
+.first-about-content p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-right: 5rem;
+    padding-left: 4rem;
+}
+
+.first-about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-about-image img {
+    width: 70%;
+    height: 90%;
+}
+
+@media screen and (max-width: 1050px) {
+    .head {
+        background: #06151F;
+        border-radius: 30px;
+        margin: 30px;
+        height: 25vh;
+    }
+    .first-about {
+        flex-direction: column;
+        margin: 2px;
+    }
+    .first-about-content {
+        margin: 1rem 5rem;
+    }
+    .first-about-image img {
+        width: 80%;
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .head h1 {
+        font-size: 28px;
+        line-height: 33px;
+        font: 900;
+    }
+    .first-about-content p {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 1rem 1rem;
+        margin: 1rem;
+    }
+    .first-about-image img {
+        width: 60%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .head h1 {
+        font-size: 25px;
+        line-height: 38px;
+        font-weight: 800;
+    }
+    .first-about-content p {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 0.1rem;
+        margin: 0.1rem;
+    }
+    .first-about-image img {
+        width: 70%;
+        height: 80%;
+    }
+}
