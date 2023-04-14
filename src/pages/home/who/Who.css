@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Raleway&display=swap');
 .who {
-    margin: auto;
+    margin: 1rem;
 }
 
 .who-image-icon {
@@ -46,4 +46,34 @@
     color: #89BFE5;
     font-size: large;
     font-family: 'Outfit', sans-serif;
+}
+
+@media screen and (max-width:800px) {
+    .who {
+        margin: 0.2rem;
+        padding: 0.1rem;
+    }
+    .who-image-icon {
+        align-items: center;
+        margin-left: 47%;
+        margin-right: 50%;
+        margin-top: 4rem;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+    }
+    .who-header {
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 40px;
+        margin: 0.3rem;
+    }
+    .who-content {
+        justify-content: center;
+        margin: 2rem 1rem 2rem 1rem;
+    }
+    .who-description {
+        font-size: medium;
+        font-weight: 500;
+    }
 }

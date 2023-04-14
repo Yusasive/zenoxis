@@ -9,7 +9,7 @@ import AboutUs from "./pages/about/About";
 import Connect from "./pages/ConnectWallet";
 import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";
-
+import FAQs from "./pages/faqs/FAQs";
 function App() {
   return (
     <>
@@ -21,6 +21,7 @@ function App() {
           <Route path="/Mints" component={Mint}></Route>
           <Route path="/About-Us" component={AboutUs}></Route>
           <Route path="/Connect-Wallet" component={Connect}></Route>
+          <Route path="/FAQs" component={FAQs}></Route>
         </Switch>
         <Footer />
         <Copyright />

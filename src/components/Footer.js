@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import FAQs from "../pages/faqs/FAQs";
 import './Footer.css';
 import {FaTwitter, FaTelegram, FaDiscord} from 'react-icons/fa';
 const Footer = () => {
@@ -10,7 +11,7 @@ const Footer = () => {
         <input type="email" placeholder='Your email here *' />
       </div>
       <div className='footer__sub'>
-      <Link className='footer__text' to="/FAQs">
+      <Link className='footer__text' to={FAQs}>
         FAQs
       </Link>
       <Link className='footer__text' to="/FAQs">
