@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Raleway&display=swap');
 .btn {
     background-color: whitesmoke;
     border: none;
@@ -12,10 +13,12 @@
     width: 180px;
     border-radius: 15px;
     padding: 22px 26px 22px 26px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .btn span {
     background-color: whitesmoke;
+    font-family: 'Outfit', sans-serif;
 }
 
 .btn:hover {
