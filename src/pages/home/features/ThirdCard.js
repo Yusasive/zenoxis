@@ -6,7 +6,10 @@ export default function ThirdCard() {
     function renderCards() {
         return (
             <div className="card-container box-contents">
-                <div className="card-image-container">
+              
+       
+
+<div className="card-image-container">
                     <img src={ai} alt="card" className="card-image" />
                 </div>
                 <div className="card-content">
@@ -20,15 +23,17 @@ export default function ThirdCard() {
                             <p className="price-text">Floor: <strong>0.5ETH</strong></p>
                             <p className="price-text">Bid Time: <strong>2h 30m 30s</strong></p>
                         </div>
-                  
                     </div>
                    
                 </div>
-            </div>
+</div>
+
+
+           
         )
     }
     return (
-        <div className="card">
+        <div>
           
             {renderCards()}
         </div>

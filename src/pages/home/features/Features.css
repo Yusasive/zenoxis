@@ -1,105 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.Features-nfts h1 {
-    color: whitesmoke;
-    margin: 1rem 0rem 0.5rem 3rem;
-}
-
-.Features {
-    min-height: 70vh;
-    font-weight: 300;
+#card-list {
+    /* border:1px solid blue; */
     display: flex;
-    flex-direction: flex;
-    justify-content: center;
-    margin-left: 2rem;
-}
-
-.card {
-    position: relative;
-}
-
-.card-container {
-    width: 275px;
-    min-height: 400px;
-    position: relative;
-    background-image: linear-gradient(#6CC1D3, #1C1E52);
-    border-radius: 15px;
-    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    flex-direction: column;
-    margin: 1rem;
-    padding: 15px 10px;
-    box-shadow: -2px 2px 46px 22px rgba(0, 0, 0, 0.6);
-    transition: 0.5s ease;
+    justify-content: center;
+    width: 80vw;
+    margin-bottom: 100px;
 }
 
-.card-image-container {
-    background-color: transparent;
+.rec .rec-dot {
+    box-shadow: 0 0 1px 2px rgb(0 0 0 / 50%) !important;
+    background-color: white !important;
 }
 
-.card-image {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    background-image: transparent;
+.rec .rec-dot_active {
+    box-shadow: 0 0 1px 2px rgb(0 0 0 / 50%) !important;
+    background-color: rgb(112, 44, 228) !important;
 }
 
-.card-content {
-    width: 270px;
-    text-align: left;
-    background-color: transparent;
-}
-
-.card-title {
+.rec .rec-arrow {
     color: white;
-    font-size: 22px;
-    font-weight: bold;
-    margin-left: 0.5rem;
-    background-color: transparent;
-    font-family: 'Outfit', sans-serif;
 }
 
-.card-title:hover {
-    color: aqua;
-}
-
-.card-description {
-    color: whitesmoke;
-    background-color: transparent;
-    margin: 0.2rem;
-    font-family: 'Outfit', sans-serif;
-}
-
-.price-text {
-    color: whitesmoke;
-    margin-left: 6px;
-    font-weight: lighter;
-    background-color: transparent;
-    font-family: 'Outfit', sans-serif;
-}
-
-.card-details-container {
-    display: flex;
-    justify-content: space-between;
-    background-color: transparent;
-}
-
-.details-container {
-    background-color: transparent;
-}
-
-.price-text strong {
-    background-color: transparent;
-}
-
-@media screen and (max-width: 900px) {
-    .features {
-        flex-direction: row;
-        display: grid;
+@media (max-width: 510px) {
+    #card-list {
+        width: 100%;
     }
 }
