@@ -3,8 +3,8 @@ import React from 'react';
 const Mint = () => {
   return (
     <div>
-      <h1>Mint Page</h1>
-      <p>Mint your NFTs here!</p>
+      <h1 className='text-6xl'>Welcome to Mint Page</h1>
+      
     </div>
   );
 }

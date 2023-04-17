@@ -1,12 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const Items = () => {
   return (
     <div>
-      <h1>Items Page</h1>
-      <p>Welcome to the Items page!</p>
+     <h1 className="text-6xl">Welcome to Items Page</h1> 
     </div>
-  );
+  )
 }
 
-export default Items;
+export default Items

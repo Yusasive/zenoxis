@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import sell1 from "../assets/sell1.png";
-import sell2 from "../assets/sell2.png";
-import sell3 from "../assets/sell3.png";
-import Button from "./Button";
+import sell1 from "../../../assets/ai.png";
+import sell2 from "../../../assets/ai.png";
+import sell3 from "../../../assets/ai.png";
+import Buttons from "../../../components/Buttons";
 
 export default function CreateAndSell() {
   const data = [
@@ -46,11 +46,12 @@ export default function CreateAndSell() {
                 <h3>{title}</h3>
                 <p>{description}</p>
 
-                <Button text={buttonText} blue={index === 1} />
+                <Buttons text={buttonText} blue={index === 1} />
               </div>
             );
           })}
         </div>
+        <Buttons text="Explore >" blue />
       </div>
     </Section>
   );
