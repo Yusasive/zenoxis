@@ -47,6 +47,7 @@ const sliderStyles = {
 const dotsContainerStyles = {
   display: "flex",
   justifyContent: "center",
+  backgroundColor: "transparent",
 };
 
 const dotStyle = {

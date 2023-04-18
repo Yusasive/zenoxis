@@ -11,6 +11,7 @@ const ImageData = () => {
     width: "300px",
     height: "300px",
     margin: "1rem auto",
+    backgroundColor: "transparent",
 
   };
   return (

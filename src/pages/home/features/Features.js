@@ -5,48 +5,55 @@ import sell2 from "../../../assets/ai.png";
 import sell3 from "../../../assets/ai.png";
 import Buttons from "../../../components/Buttons";
 
-export default function CreateAndSell() {
+export default function Features() {
   const data = [
     {
       image: sell1,
-      title: "Create your collection",
+      head: "ZENOXIS MEGA NFT",
+      title1: "Floor :",
+      title2: "Bid Time :",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
-      buttonText: "Create",
+     
     },
     {
       image: sell2,
-      title: "Add your NFTs",
+      head: "ZENOXIS MEGA NFT",
+      title1: "Floor :",
+      title2: "Bid Time :",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
-      buttonText: "Add NFT",
+      
     },
     {
       image: sell3,
-      title: "List them for sale",
+      head: "ZENOXIS MEGA NFT",
+      title1: "Floor :",
+      title2: "Bid Time :",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
-      buttonText: "Sell Now",
+     
     },
   ];
   return (
     <Section>
       <div className="title">
-        <h2>Create and Sell Your NFTs</h2>
+        <h2>Featured NFTs</h2>
       </div>
       <div className="container">
         <div className="ellipse"></div>
         <div className="content">
-          {data.map(({ image, title, description, buttonText }, index) => {
+          {data.map(({ image, head, title1, title2, description,  }, index) => {
             return (
               <div className="createAndSell" key={index}>
                 <div className="image">
                   <img src={image} alt="create and sell" />
                 </div>
-                <h3>{title}</h3>
+                <h2>{head}</h2>
                 <p>{description}</p>
+                <h5>{title1} <span>0.5ETH</span></h5>
+                <h5>{title2} <span>22h 4m 34s</span></h5>
 
-                <Buttons text={buttonText} blue={index === 1} />
               </div>
             );
           })}
@@ -60,16 +67,19 @@ export default function CreateAndSell() {
 const Section = styled.section`
   margin: 0 6rem;
   margin-bottom: 5rem;
+
   .title {
-    text-align: center;
+    text-align: left;
     h2 {
+      color: whitesmoke;
       font-size: 3rem;
-      margin-bottom: 4rem;
+      font-weight: 800;
+      margin-bottom: 0.1rem;
     }
   }
   .container {
-    background-color: #232835;
-    padding: 5rem;
+    background-color: transparent;
+    padding: 2rem;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
@@ -94,28 +104,38 @@ const Section = styled.section`
         padding: 2rem;
         display: flex;
         flex-direction: column;
-        gap: 1rem;
         border-radius: 1rem;
         .image {
           background-color: #2d69fd;
           display: flex;
           justify-content: center;
           align-items: center;
-          padding: 1rem;
+          padding: 0.8rem;
           width: max-content;
           border-radius: 2rem;
           img {
-            height: 2rem;
+            height: 15rem;
+            background-color: transparent;
           }
         }
-        h3 {
-          color: white;
+        h5 {
+          color: whitesmoke;
+          background-color: transparent;
+        }
+        h2 {
+            background-color: transparent;
+            color: whitesmoke;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
         }
         p {
-          color: #c8c4cf;
+          color: whitesmoke;
+          background-color: transparent;
           margin-bottom: 1rem;
         }
-        button {
+        span {
+            background-color: transparent;
+            font-weight: 750;
         }
       }
     }
@@ -132,6 +152,8 @@ const Section = styled.section`
       .content {
         flex-direction: column;
         gap: 1rem;
+        width: 21rem;
+        
       }
     }
   }
