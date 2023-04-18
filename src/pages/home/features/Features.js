@@ -65,6 +65,7 @@ export default function Features() {
 }
 
 const Section = styled.section`
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Raleway&display=swap');
   margin: 0 6rem;
   margin-bottom: 5rem;
 
@@ -75,10 +76,11 @@ const Section = styled.section`
       font-size: 3rem;
       font-weight: 800;
       margin-bottom: 0.1rem;
+      font-family: 'Raleway', sans-serif;
     }
   }
   .container {
-    background-color: transparent;
+    
     padding: 2rem;
     border-radius: 1rem;
     position: relative;
@@ -86,7 +88,7 @@ const Section = styled.section`
     .ellipse {
       height: 30rem;
       width: 30rem;
-      background-color: #ae54c27d;
+      background-color: transparent;
       border-radius: 100%;
       filter: blur(2000px);
       opacity: 0.5;
@@ -99,7 +101,7 @@ const Section = styled.section`
       display: flex;
       gap: 3rem;
       .createAndSell {
-        background-color: #ffffff34;
+        background: linear-gradient(180deg, rgba(108, 193, 211, 0.77) 0%, rgba(28, 30, 82, 0.81) 63.53%);
         z-index: 10;
         padding: 2rem;
         display: flex;
@@ -120,22 +122,27 @@ const Section = styled.section`
         }
         h5 {
           color: whitesmoke;
+          font-family: 'Outfit', sans-serif;
           background-color: transparent;
         }
         h2 {
             background-color: transparent;
             color: whitesmoke;
             margin-bottom: 0.5rem;
+            font-family: 'Outfit', sans-serif;
             font-weight: 700;
         }
         p {
           color: whitesmoke;
+          font-family: 'Outfit', sans-serif;
           background-color: transparent;
           margin-bottom: 1rem;
+          line-height: 1rem;
         }
         span {
             background-color: transparent;
             font-weight: 750;
+            font-family: 'Outfit', sans-serif;
         }
       }
     }
