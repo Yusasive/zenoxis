@@ -13,7 +13,7 @@ const Footer = () => {
         <input type="email" placeholder='Your email here *' />
       </div>
       <div className='footer__sub'>
-      <Link className='footer__text' to="../pages/faqs/">
+      <Link className='footer__text' to="./FAQs">
         FAQs
       </Link>
       <Link className='footer__text' to="">
