@@ -23,10 +23,10 @@
     }
     
     .footer__head input {
-        height: 27px;
+        height: 30px;
         width: 180px;
         border-radius: 3px;
-        background-color: transparent;
+        background-color: #183142;
     }
     
     .footer__sub {
