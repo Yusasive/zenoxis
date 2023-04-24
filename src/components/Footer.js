@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import FAQs from "../pages/faqs/FAQs";
 import './Footer.css';
 import {FaTwitter, FaTelegram, FaDiscord} from 'react-icons/fa';
 
@@ -16,7 +15,7 @@ const Footer = () => {
       <Link className='footer__text' to="./FAQs">
         FAQs
       </Link>
-      <Link className='footer__text' to="">
+      <Link className='footer__text' to="./Partnership">
         Become a Partner
       </Link> <br />
       <div className='footer__icons'>

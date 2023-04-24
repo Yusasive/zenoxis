@@ -177,7 +177,7 @@ const Section = styled.section`
           width: max-content;
           border-radius: 2rem;
           img {
-            height: 15rem;
+            height: 10rem;
             background-color: transparent;
           }
         }

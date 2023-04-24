@@ -10,6 +10,7 @@ import Connect from "./pages/ConnectWallet";
 import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";
 import FAQs from "./pages/faqs/FAQs";
+import Partnership from './pages/partnership/Partnership'
 function App() {
   return (
     <>
@@ -22,6 +23,8 @@ function App() {
           <Route path="/About-Us" component={AboutUs}></Route>
           <Route path="/Connect-Wallet" component={Connect}></Route>
           <Route path="/FAQs" component={FAQs}></Route>
+          <Route path="/Partnership" component={Partnership}></Route>
+        
         </Switch>
         <Footer />
         <Copyright />
