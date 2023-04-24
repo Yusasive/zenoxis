@@ -147,7 +147,7 @@ const Section = styled.section`
       }
     }
   }
-  @media screen and (min-width: 280px) and (max-width: 1080px) {
+  @media screen and (max-width: 700px) and (max-width: 1080px) {
     margin: 2rem;
     .title {
       h2 {
@@ -159,7 +159,35 @@ const Section = styled.section`
       .content {
         flex-direction: column;
         gap: 1rem;
-        width: 21rem;
+        width: 15rem;
+
+        .createAndSell {
+        background: linear-gradient(180deg, rgba(108, 193, 211, 0.77) 0%, rgba(28, 30, 82, 0.81) 63.53%);
+        z-index: 10;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+        .image {
+          background-color: #2d69fd;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0.8rem;
+          width: max-content;
+          border-radius: 2rem;
+          img {
+            height: 15rem;
+            background-color: transparent;
+          }
+        }
+        h5 {
+          color: whitesmoke;
+          font-family: 'Outfit', sans-serif;
+          background-color: transparent;
+        }
+        
+      }
         
       }
     }

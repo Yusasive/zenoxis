@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 
@@ -22,15 +22,16 @@ body {
     margin: 2rem 0 4rem 0;
     color: whitesmoke;
     font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     background-color: transparent;
 }
 
 .accordion {
-    max-width: 80%;
+    max-width: 70%;
     margin: 2rem auto;
-    border-width: [object Object]px, [object Object]px, [object Object]px, [object Object]px;
     border-style: solid;
+    border-radius: 20px;
     background: linear-gradient(180deg, rgba(17, 57, 65, 0.77) 0%, rgba(13, 14, 37, 0.81) 63.53%);
 }
 
@@ -50,7 +51,8 @@ body {
 .accordion-title,
 .accordion-content {
     padding: 1rem;
-    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
 }
 
 .accordion-content {
@@ -65,5 +67,21 @@ body {
     }
     .accordion {
         width: 90%;
+    }
+    .faqs-head {
+        border-radius: 30px;
+        margin: 20px;
+        height: 15vh;
+    }
+    .accordion-title,
+    .accordion-content {
+        padding: 0.2rem;
+        font-size: large;
+    }
+    .faqs-head h1 {
+        text-align: center;
+        margin: 1rem 0 2rem 0;
+        font-size: xx-large;
+        font-weight: 700;
     }
 }
