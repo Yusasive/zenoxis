@@ -132,12 +132,12 @@
                 justify-content: center;
                 color: #1F1F1F;
                 height: 20px;
-                width: 100%;
                 border-radius: 15px;
                 padding: 22px 24px 22px 24px;
                 top: 50%;
                 -ms-transform: translateY(-50%);
                 transform: translateY(-50%);
+                margin-top: 2rem;
             }
             
             .sidebar .btn:hover {
@@ -147,7 +147,7 @@
             
             @media screen and (max-width: 900px) {
                 .sidebar.active {
-                    width: 40%;
+                    width: 52%;
                     height: 100%;
                 }
             }
