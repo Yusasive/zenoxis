@@ -10,7 +10,7 @@ import Connect from "./pages/ConnectWallet";
 import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";
 import FAQs from "./pages/faqs/FAQs";
-import Partnership from './pages/partnership/Partnership'
+import Partnership from './pages/partnership/Partnership';
 function App() {
   return (
     <>

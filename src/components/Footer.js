@@ -12,7 +12,7 @@ const Footer = () => {
         <input type="email" placeholder='Your email here *' />
       </div>
       <div className='footer__sub'>
-      <Link className='footer__text' to="./FAQs">
+      <Link className='footer__text' to="./FAQs" onClick={() => window.location.reload()}>
         FAQs
       </Link>
       <Link className='footer__text' to="./Partnership">
