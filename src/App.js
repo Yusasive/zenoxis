@@ -24,7 +24,6 @@ function App() {
           <Route path="/Connect-Wallet" component={Connect}></Route>
           <Route path="/FAQs" component={FAQs}></Route>
           <Route path="/Partnership" component={Partnership}></Route>
-        
         </Switch>
         <Footer />
         <Copyright />
